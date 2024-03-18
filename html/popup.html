@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Grabber</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/popup.js" defer></script>
+  </head>
+  <body>
+    <div class="flowers">
+      <img src="../icons/flower-1.png" alt="" />
+      <img src="../icons/flower-2.png" alt="" />
+      <img src="../icons/flower-3.png" alt="" />
+      <img src="../icons/flower-4.png" alt="" />
+      <img src="../icons/flower-5.png" alt="" />
+      <img src="../icons/flower-6.png" alt="" />
+    </div>
+    <h1>Google Translate</h1>
+    <div class="languages">
+      <h3 class="lang">Русский</h3>
+      <div><img id="switch-btn" src="../icons/exchange.png" alt="" /></div>
+      <h3 class="lang">English</h3>
+    </div>
+    <div class="text-boxes">
+      <div class="input">
+        <textarea id="input-text"></textarea>
+        <div class="refresh-text">Clear<br />Text</div>
+        <div class="white-bottom"></div>
+        <div class="refresh-btn">
+          <img id="refresh-btn" src="../icons/refresh.png" alt="" />
+        </div>
+        <div class="translate">
+          <img id="translate-btn" src="../icons/arrow.png" alt="" />
+        </div>
+      </div>
+      <div class="output">
+        <textarea id="output-text" readonly disabled></textarea>
+        <div class="text-copied">Text copied <br />to clipboard</div>
+        <div class="copy-button">
+          <img id="copy-btn" src="../icons/copy.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
